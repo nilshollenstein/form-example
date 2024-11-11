@@ -9,6 +9,13 @@ function App() {
           <h1>Wer das liest ist ein HS</h1>
 
       </header>
+      <body>
+        <form>
+          <label for="vorname"></label>
+          <input type='text' id="vorname" name='vorname' required></input>
+          <input type='submit'></input>
+        </form>
+      </body>
     </div>
   );
 }
