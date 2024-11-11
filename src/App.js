@@ -12,10 +12,14 @@ function App() {
           
           <label for='nachname'>Nachname</label><br></br>
           <input type='text' id='nachname' name='nachname' required></input> <br></br>
-          
+          <label for='Gewicht'>Gewicht</label><br></br>
+          <input type='number' id='Gewicht' name='Gewicht' required></input>
           <label for='geburtsdatum'>Geburtsdatum</label><br></br>
-          <input type='date' id='geburtsdatum' name='geburtsdatum'></input>
+          <input type='date' id='geburtsdatum' name='geburtsdatum' required></input>
+<br></br>
+          <label for='todesdatum'>Todesdatum</label>
           <br></br>
+          <input type='date' id='todesdatum' name='todesdatum' required></input><br></br>
           <input type='submit'></input>
 
         </form>
