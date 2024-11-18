@@ -8,10 +8,10 @@ function App() {
         <form>
           <h1>Arzttermin </h1>
           <label for="vorname">Vorname</label><br></br>
-          <input type='text' id="vorname" name='vorname' placeholder='z.B. Meo' required></input><br></br>
+          <input type='text' id="vorname" name='vorname' placeholder='z.B. Nils' required></input><br></br>
           
           <label for='nachname'>Nachname</label><br></br>
-          <input type='text' id='nachname' name='nachname' placeholder='z.B. Belloni' required></input> <br></br>
+          <input type='text' id='nachname' name='nachname' placeholder='z.B. Holgerson' required></input> <br></br>
           <label for='Gewicht'>Gewicht (in Kg)</label><br></br>
           <input type='number' id='Gewicht' name='Gewicht' placeholder='z.B. 70 Kg' required></input><br></br>
           <label for='hight'>Grösse (in Meter)</label><br></br>
@@ -34,7 +34,10 @@ function App() {
           <label for='geburtsdatum'>Geburtsdatum</label><br></br>
           <input type='date' id='geburtsdatum' name='geburtsdatum' required></input><br></br>
           <label for='termindatum'>Termindatum</label><br></br>
-          <input type='date' id='termindatum' name='termindatum' required></input><br></br>
+          <input type='date' id='termindatum' name='termindatum' required></input><br></br><br></br>
+
+          <input type='checkbox' id='tos' name='tos' required></input>
+          <label for='tos'>Ich akzeptiere die <a href="https://youtu.be/xm3YgoEiEDc">Terms of service</a></label><br></br><br></br>
          
          
           
